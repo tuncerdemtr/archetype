@@ -350,6 +350,15 @@
 
               <div class="mb-7 sm:mb-8">
                 <p
+                  class="text-[11px] font-medium tracking-[0.22em] uppercase text-slate-500 mb-2"
+                >
+                  Tamamlayıcı Öneri
+                </p>
+                <p id="resultCrossSell" class="text-sm text-slate-700"></p>
+              </div>
+
+              <div class="mb-7 sm:mb-8">
+                <p
                   class="text-[11px] font-medium tracking-[0.22em] uppercase text-slate-500 mb-3"
                 >
                   Güven Veren Detaylar
@@ -515,16 +524,17 @@
         description:
           'Sizin için lüks, sadelikte gizli. Doğal dokular, sıcak ahşap tonları ve göz yormayan minimalist çizgiler arıyorsunuz. Evinizdeki "Hygge" (mutluluk/huzur) köşesini tasarladık.',
         model: "NORDA (N1/N2)",
-        material: "Doğal ahşap kaplama + mat lake, ince çerçeveli tasarım",
+        material: "Doğal ahşap kaplama seçenekleri + 8 mm ince çerçeveli mat lake",
         why: [
-          "İnce çerçeveli tasarımı ve doğal ahşap kaplama seçenekleriyle doğayı evinize taşır.",
-          "8 mm'lik incecik çerçevesi kaba değil, zarif bir duruş sergiler.",
-          "Mat lake ve ahşabın sıcak uyumuyla göz yormayan, sıcak bir minimalizm sunar.",
+          "İnce çerçeveli tasarımı ve doğal ahşap kaplama seçenekleri ile doğayı evinize taşır.",
+          "8 mm'lik incecik çerçevesiyle kaba değil, son derece narin bir duruş sergiler.",
+          "Soğuk modernizm yerine mat lakenin ve ahşabın sıcak uyumunu sunar.",
         ],
         accentColor: "#4B8063",
         imageUrl:
           "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Doğallık ve sıcak minimalizmde gizli lüks.",
+        shortTagline: "Doğallık, sıcaklık ve sadelik arayanlara.",
+        crossSell: "Ahşap raflı açık üniteler ve pastel tonlu seramik tezgah.",
       },
       techMinimalist: {
         id: "techMinimalist",
@@ -537,13 +547,14 @@
         material: "Soft Lak (M2) ultra mat yüzey + GOLA kulpsuz profil",
         why: [
           "GOLA profil sistemi sayesinde kulp çıkıntısı yoktur, kapaklar bütünsel bir duvar gibi görünür.",
-          "Soft Lak (M2) teknolojisiyle yüzeyler kadifemsi, ekstra mat bir dokudadır.",
-          "Ankastre cihazlar ve teknolojik aksesuarlarla kusursuz uyum sağlar.",
+          "Soft Lak (M2) teknolojisi ile yüzeyler kadifemsi ve ekstra mattır.",
+          "Ankastre cihazlarınız ve teknolojik aksesuarlarınızla kusursuz uyum sağlar.",
         ],
         accentColor: "#020617",
         imageUrl:
           "https://images.unsplash.com/photo-1617099404995-0ad965551f9f?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Kulpsuz, pürüzsüz ve akıllı minimalizm.",
+        shortTagline: "Kulp sevmeyen, pürüzsüz ve akıllı tasarımlar.",
+        crossSell: "Tezgah içinden çıkan priz sistemleri ve sensörlü aydınlatmalar.",
       },
       vintageLover: {
         id: "vintageLover",
@@ -556,13 +567,14 @@
         material: "5.5 cm ince çerçeveli mat lake, pastel yeşil ve krem tonlar",
         why: [
           "5.5 cm'lik ince çerçevesiyle sevdiğiniz Shaker tarzını modern bir dille yorumlar.",
-          "Pastel mat lake renkleri (yeşiller, kremler) vintage ruhunu yansıtır.",
-          "Çerçeve üzerine monte edilen karakterli kulplar stilinizi tamamlar.",
+          "Mat lake pastel renk seçenekleri (pastel yeşiller, kremler) vintage ruhunu yansıtır.",
+          "Çerçeve üzerine monte edilen özel kulplarla stilinizi tamamlar.",
         ],
         accentColor: "#B7795F",
         imageUrl:
           "https://images.unsplash.com/photo-1520256862855-398228c41684?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Shaker ruhu, modern konforla birleşir.",
+        shortTagline: "Geçmişin sıcaklığı, modern konforla birleşir.",
+        crossSell: "Eskitme pirinç (antik gold) çanak kulplar.",
       },
       palaceKeeper: {
         id: "palaceKeeper",
@@ -574,14 +586,15 @@
         model: "TOSCANA (T7 - Parlak Lake)",
         material: "Parlak lake yüzeyler, taç ve camlı dolap detayları",
         why: [
-          "Parlak lake yüzeyler ışığı yansıtarak mutfağı daha geniş ve lüks gösterir.",
-          "Taç detayları ve büfe tarzı camlı dolaplarla kraliyet dokunuşu sunar.",
-          "Çift yüz frezeli özel işçilikli kapaklar ustalık seviyesinde ihtişam katar.",
+          "Parlak lake yüzeyler ışığı bir ayna gibi yansıtarak mutfağı daha geniş ve lüks gösterir.",
+          "Taç detayları ve büfe tarzı camlı dolaplarla klasik bir zenginlik sunar.",
+          "Çift yüz frezeli özel işçilikle üretilmiş kapaklar.",
         ],
         accentColor: "#111827",
         imageUrl:
           "https://images.unsplash.com/photo-1564540586988-aa4e53cbe3df?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Işıltılı, zengin ve sahne ışıklarını seven mutfak.",
+        shortTagline: "Işıltı, zenginlik ve ihtişam sevenlere.",
+        crossSell: "Camlı, ışıklı büfe dolapları ve altın detaylı aksesuarlar.",
       },
       ecoWarrior: {
         id: "ecoWarrior",
@@ -593,14 +606,15 @@
         model: "SIENA (Mat PET)",
         material: "%40'a kadar geri dönüştürülmüş içerikli mat PET + E1 düşük emisyonlu gövde",
         why: [
-          "Kapaklar %40'a kadar geri dönüştürülmüş malzemeden üretilir.",
-          "E1 sınıfı, sağlığa zarar vermeyen, formaldehit emisyonu düşük malzemeler kullanılır.",
-          "Neme ve darbeye dayanıklı PET yüzeyler uzun ömürlü bir kullanım sunar.",
+          "Kapaklarınız %40'a kadar geri dönüştürülmüş malzemeden üretilir.",
+          "E1 sınıfı, sağlığa zarar vermeyen, formaldehit emisyonu düşük malzemeler.",
+          "PET yüzeyler neme ve darbeye dayanıklı, uzun ömürlüdür.",
         ],
         accentColor: "#15803D",
         imageUrl:
           "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Sorumlu, sağlıklı ve uzun ömürlü seçimler.",
+        shortTagline: "Sürdürülebilirlik önceliği olanlara.",
+        crossSell: "Ayrıştırıcı çöp kutusu sistemleri.",
       },
       hygieneFreak: {
         id: "hygieneFreak",
@@ -608,18 +622,19 @@
         label: "Kusursuz Titiz",
         headline: "Kusursuz Titiz",
         description:
-          "Sizin için mutfak sadece yemek yapılan bir yer değil; hijyenin ve ferahlığın kalesi. Parmak izlerine, çıkmayan lekelere ve karmaşaya tahammülünüz yok.",
+          "Sizin için mutfak sadece yemek yapılan bir yer değil; hijyenin ve ferahlığın kalesi. Parmak izlerine, çıkmayan lekelere ve karmaşaya tahammülünüz yok. Sizi anlıyoruz.",
         model: "SIENA (Mat PET Serisi)",
-        material: "Parmak izi tutmayan mat PET + soft close sistemler",
+        material: "Parmak izi tutmayan mat PET yüzeyler + soft close sistemler",
         why: [
-          "Mat PET yüzey teknolojisi sayesinde parmak izi kalmaz; sürekli silmeye gerek yoktur.",
-          "Tüm kapaklarda standart yavaş kapanma özelliği sessiz ve güvenli kullanım sağlar.",
-          "%40'a kadar geri dönüştürülmüş, E1 sınıfı malzemeler sağlıklı ve çevre dostudur.",
+          "Mat PET yüzey teknolojisi sayesinde parmak izi kalmaz; sürekli silmek zorunda kalmazsınız.",
+          "Tüm kapaklarda standart yavaş kapanma (soft close) özelliği sessiz ve güvenlidir.",
+          "%40'a kadar geri dönüştürülmüş malzemeden üretilen, insan sağlığına zararsız E1 sınıfı kapaklar.",
         ],
         accentColor: "#0F766E",
         imageUrl:
           "https://images.unsplash.com/photo-1591171278297-5c253911f3c5?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Parmak izi yok, sessiz ve sağlıklı temizlik.",
+        shortTagline: "Temizlik takıntısı olanlara kusursuz hijyen.",
+        crossSell: "Kir tutmayan tezgah altı eviye ve kulpsuz/bas-aç kapak tasarımı.",
       },
       heavyDutyChef: {
         id: "heavyDutyChef",
@@ -631,14 +646,15 @@
         model: "INOVA (Yüksek Tezgah)",
         material: "90.8 cm tezgah seviyesi + akrilik/kristal PET kapaklar + alüminyum taban",
         why: [
-          "Standarttan 5 cm daha yüksek (90.8 cm) tezgah seviyesi ile ergonomik çalışma sunar.",
+          "Standarttan 5 cm daha yüksek (90.8 cm) tezgah seviyesi ile belinizi yormadan çalışın.",
           "Akrilik veya Kristal PET seçenekleriyle çizilmelere meydan okuyan kapaklar.",
-          "Eviye dolabındaki alüminyum zemin su sızıntılarına karşı koruma sağlar.",
+          "Eviye dolabındaki alüminyum zemin ile su sızıntılarına karşı tam koruma.",
         ],
         accentColor: "#B91C1C",
         imageUrl:
           "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Profesyonel performans için zırh gibi mutfak.",
+        shortTagline: "Mutfakta profesyonel performans arayanlara.",
+        crossSell: "Geniş 'Workstation' evyeler ve çekmece içi profesyonel düzenleyiciler.",
       },
       speedRacer: {
         id: "speedRacer",
@@ -650,14 +666,15 @@
         model: "VEGA veya PRIME (Polimerik)",
         material: "Mat polimerik hızlı üretim yüzeyleri + 3 yıl garanti",
         why: [
-          "Mat polimerik malzeme, üretim süresi en kısa olan teknolojidir; hızla kullanıma hazır olur.",
-          "3 yıl garanti ile hem hızlı hem güvenli bir çözüm sunar.",
-          "Lake görünümünü kısa sürede ve uygun bütçeyle elde edersiniz.",
+          "Mat Polimerik malzeme, üretim süresi en kısa olan teknolojidir. Mutfağınız hızla kullanıma hazır olur.",
+          "3 yıl garanti ile hem hızlı hem güvenli.",
+          "Lake görünümünü çok daha kısa sürede ve uygun bütçeyle elde edersiniz.",
         ],
         accentColor: "#0369A1",
         imageUrl:
           "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Hızlı üretim, akıllı ve güvenli teslimat.",
+        shortTagline: "Hemen teslimat ve hız isteyenlere.",
+        crossSell: "Stoklu armatür ve evye setleri.",
       },
       budgetArtist: {
         id: "budgetArtist",
@@ -669,14 +686,15 @@
         model: "VEGA (Mat PET/Polimerik)",
         material: "Lake etkili, kenar bandı olmayan özel kaplama teknolojisi",
         why: [
-          "Lake boya görünümünü bütçe dostu fiyatla ve kenar bandı izi olmadan sunar.",
-          "Ekonomik segmentte olmasına rağmen premium bir duruş sergiler.",
-          "Günlük kullanım darbelerine karşı hassas değildir, uzun ömürlüdür.",
+          "Kenar bandı olmayan özel kaplama teknolojisi sayesinde lake görünümü bütçe dostu fiyata sunar.",
+          "Ekonomik segmentte yer almasına rağmen premium bir duruş sergiler.",
+          "Günlük kullanım darbelerine karşı hassas değildir.",
         ],
         accentColor: "#6B21A8",
         imageUrl:
           "https://images.unsplash.com/photo-1600585153899-96ef09b5c612?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Bütçe dostu ama premium görünen akıllı yatırım.",
+        shortTagline: "Kısıtlı bütçeyle yüksek stil hedefleyenlere.",
+        crossSell: "Şık ama uygun fiyatlı siyah metal kulplar.",
       },
       storageHoarder: {
         id: "storageHoarder",
@@ -696,6 +714,7 @@
         imageUrl:
           "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=80",
         shortTagline: "Maksimum hacim, minimum dağınıklık.",
+        crossSell: "Kiler mekanizmaları ve çekmece içi kaşıklık/tabaklık sistemleri.",
       },
       verticalMinimalist: {
         id: "verticalMinimalist",
@@ -703,7 +722,7 @@
         label: "Dikey Çizgici",
         headline: "Mimari Çizgiler",
         description:
-          "Düz kapaklar size sıkıcı, klasikler ise demode geliyor. Tasarımda derinlik, ritim ve mimari bir duruş arıyorsunuz.",
+          "Düz kapaklar size sıkıcı, klasikler ise demode geliyor. Siz tasarımda derinlik, ritim ve mimari bir duruş arıyorsunuz.",
         model: "FRESCA",
         material: "5 cm aralıklı dikey fugalı kapaklar, yanak panellerinde devam eden çizgiler",
         why: [
@@ -714,7 +733,8 @@
         accentColor: "#1D4ED8",
         imageUrl:
           "https://images.unsplash.com/photo-1617099404995-0ad965551f9f?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Dikey ritimle mimari duruş kazanan mutfak.",
+        shortTagline: "Sıradan düz kapaklardan sıkılanlara mimari ritim.",
+        crossSell: "Minimalist sarkıt aydınlatmalar.",
       },
       displayCurator: {
         id: "displayCurator",
@@ -734,6 +754,7 @@
         imageUrl:
           "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80",
         shortTagline: "Mutfak, koleksiyonlarınız için ışıklı bir vitrin olur.",
+        crossSell: "Cam raflar ve dolap içi spot aydınlatma.",
       },
       landlord: {
         id: "landlord",
@@ -753,6 +774,7 @@
         imageUrl:
           "https://images.unsplash.com/photo-1617099212847-4403baf55b0c?auto=format&fit=crop&w=1200&q=80",
         shortTagline: "Dayanıklı, nötr ve yatırım dostu mutfak.",
+        crossSell: "Krom metal kulplar (en dayanıklı kulp tipi).",
       },
       safetyFirstParent: {
         id: "safetyFirstParent",
@@ -760,7 +782,7 @@
         label: "Defansif Ebeveyn",
         headline: "Güvenli Liman",
         description:
-          "Mutfaktaki en değerli şey, içinde koşturan minikler. Öncelik 'Kaza Riski Sıfır' bir yaşam alanı.",
+          "Mutfaktaki en değerli şey, içinde koşturan minikler. Sizin için öncelik 'Kaza Riski Sıfır' bir yaşam alanı.",
         model: "SIENA veya PRIME (Mat PET)",
         material: "Soft close kapak ve çekmeceler + darbe emici camsız PET alt dolaplar",
         why: [
@@ -771,7 +793,8 @@
         accentColor: "#F97316",
         imageUrl:
           "https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?auto=format&fit=crop&w=1200&q=80",
-        shortTagline: "Kaza riskini azaltan, güvenli ve yumuşak mutfak.",
+        shortTagline: "Çocuk güvenliğini her şeyin önüne koyanlara.",
+        crossSell: "Kilitli deterjanlık dolapları.",
       },
       contemporaryClassic: {
         id: "contemporaryClassic",
@@ -791,6 +814,7 @@
         imageUrl:
           "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80",
         shortTagline: "Ne çok modern ne çok klasik: dengeli bir stil.",
+        crossSell: "Modern formda antik bakır kulplar.",
       },
     };
 
@@ -993,6 +1017,7 @@
     const resultModel = document.getElementById("resultModel");
     const resultMaterial = document.getElementById("resultMaterial");
     const resultWhyList = document.getElementById("resultWhyList");
+    const resultCrossSell = document.getElementById("resultCrossSell");
     const resultImage = document.getElementById("resultImage");
     const resultShortTagline = document.getElementById("resultShortTagline");
     const primaryCta = document.getElementById("primaryCta");
@@ -1118,6 +1143,7 @@
       resultModel.textContent = a.model;
       resultMaterial.textContent = a.material;
       resultShortTagline.textContent = a.shortTagline;
+      resultCrossSell.textContent = a.crossSell || "";
       resultImage.src = a.imageUrl;
 
       // Reset why list
